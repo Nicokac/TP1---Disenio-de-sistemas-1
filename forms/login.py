@@ -10,10 +10,6 @@ from models.models import Usuario as UsuarioModel
 from forms.validador import es_password_debil, es_password_valido
 from forms.archivo import Archivo
 
-import tkinter as tk
-from tkinter import ttk
-from tkinter import messagebox as MessageBox
-
 class LoginApp:
     def __init__(self, root):
         self.root = root
