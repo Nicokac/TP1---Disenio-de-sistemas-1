@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este es un sistema de inicio de sesión y registro de usuarios desarrollado en Python, utilizando la librería Tkinter para la interfaz gráfica. Los usuarios pueden registrarse, iniciar sesión y cargar archivos en formato .PDF, .XLS y .CSV. El contenido de los archivos cargados se visualiza en la aplicación y se puede guardar en una base de datos SQLite.
+Este es un sistema de inicio de sesión y registro de usuarios desarrollado en Python, utilizando la librería Tkinter para la interfaz gráfica. Los usuarios pueden registrarse, iniciar sesión y cargar archivos en formato .PDF, .XLS y .CSV. El contenido de los archivos cargados se visualiza en la aplicación y se puede guardar en una base de datos SQLite utilizando SQLAlchemy como ORM.
 
 ## Características
 
@@ -10,7 +10,7 @@ Este es un sistema de inicio de sesión y registro de usuarios desarrollado en P
 - **Inicio de Sesión**: Los usuarios pueden iniciar sesión con su nombre y contraseña registrados.
 - **Carga de Archivos**: Los usuarios pueden cargar archivos .PDF, .XLS y .CSV y visualizar su contenido.
 - **Visualización de Datos**: El contenido de los archivos se muestra en una interfaz de tabla.
-- **Persistencia de Datos**: Los registros seleccionados se pueden guardar en una base de datos SQLite.
+- **Persistencia de Datos**: Los registros seleccionados se pueden guardar en una base de datos SQLite separada para registros y usuarios, asegurando una adecuada organización y persistencia de datos.
 
 ## Requisitos
 
@@ -26,8 +26,8 @@ Este es un sistema de inicio de sesión y registro de usuarios desarrollado en P
 ### Clonar el repositorio:
 
 -  ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
+   git clone https://github.com/Nicokac/TP1---Disenio-de-sistemas-1
+   cd TP1---Disenio-de-sistemas-1
 
 ### **Crear entorno virtual:**
 -  ```bash
@@ -65,6 +65,9 @@ Este es un sistema de inicio de sesión y registro de usuarios desarrollado en P
 
 ### Ver Registros Guardados:
 - Haga clic en "Ver Registros Guardados" para visualizar los registros almacenados.
+
+### Cerrar Sesión:
+- Haga clic en "Cerrar Sesión" para desconectarse y volver a la ventana de inicio de sesión.
 
 ## Estructura del Proyecto:
 
